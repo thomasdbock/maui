@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>😸</title>
+  </head>
+  <body style="background-color: #000; margin: 0;">
+    <script>
+      var img = document.createElement("img");
+      img.setAttribute("alt", "Picture of Maui");
+      img.setAttribute(
+        "src",
+        "./photo/maui-" + Math.ceil(Math.random() * 10) + ".jpg"
+      );
+      img.style.position = "absolute";
+      img.style.height = "100%";
+      img.style.width = "100%";
+      img.style.objectFit = "contain";
+      document.body.appendChild(img);
+    </script>
+  </body>
+</html>
