@@ -1,0 +1,23 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"corejs": "3",
+				"useBuiltIns": "usage"
+			}
+		],
+		"@babel/preset-react"
+	],
+	"plugins": [
+		"@babel/plugin-proposal-export-namespace-from",
+		"@babel/plugin-proposal-optional-chaining",
+		[
+			"@babel/plugin-transform-runtime",
+			{
+				"regenerator": true
+			}
+		],
+		"@babel/plugin-proposal-class-properties"
+	]
+}
