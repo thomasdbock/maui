@@ -5,7 +5,7 @@
 - [x] React
 - [x] onClick -> show next picture
 - [ ] Smaller pictures, need to resize
-- [ ] Analytics, because I need to know who's checking out mah kitteh
+- [x] Analytics, because I need to know who's checking out mah kitteh
 - [ ] Remote database for pictures
 - [ ] NSFW filter, because cats like to show their balls
 - [ ] Remote upload form, because hardcoding aint no fun
