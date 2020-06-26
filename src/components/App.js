@@ -10,6 +10,8 @@ const Container = styled.div`
 	width: 100%;
 `;
 
+// TODO: Look at firebase hosting
+
 const App = () => {
 	const [picture, setPicture] = useState(null);
 
